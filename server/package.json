@@ -1,0 +1,15 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "FlipkartClone",
+  "main": "server.js",
+  "scripts": {
+    "dev":"npx nodemon server.js"
+  },
+  "type": "module",
+  "author": "Meraj Siddique",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
