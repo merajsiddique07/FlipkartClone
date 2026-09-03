@@ -1,9 +1,13 @@
+import Footer from "./components/Footer";
 import Home from "./pages/Home";
 
 const App = () => {
   return (
-    <div className="md:mx-20">
-      <Home />
+    <div>
+      <div className="md:mx-20">
+        <Home />
+      </div>
+      <Footer />
     </div>
   );
 };

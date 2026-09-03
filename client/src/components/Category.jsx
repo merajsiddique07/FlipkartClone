@@ -17,87 +17,87 @@ const Category = () => {
     <div className="flex gap-4 pt-2">
       <div className="w-18 h-18 flex flex-col justify-center align-middle items-center">
         <div>
-          <RiShoppingBag3Line size={32} />
+          <RiShoppingBag3Line size={22} />
         </div>
-        <div className="font-semibold">For You</div>
+        <div>For You</div>
       </div>
       <div className="w-18 h-18 flex flex-col justify-center align-middle items-center">
         <div>
           <LuShirt size={22} />
         </div>
-        <div className="font-semibold">Fashion</div>
+        <div>Fashion</div>
       </div>
       <div className="w-18 h-18 flex flex-col justify-center align-middle items-center">
         <div>
           <FaMobileAlt size={22} />
         </div>
-        <div className="font-semibold">Mobiles</div>
+        <div>Mobiles</div>
       </div>
       <div className="w-18 h-18 flex flex-col justify-center align-middle items-center">
         <div>
           <FaLaptop size={22} />
         </div>
-        <div className="font-semibold">Electronics</div>
+        <div>Electronics</div>
       </div>
       <div className="w-18 h-18 flex flex-col justify-center align-middle items-center">
         <div>
           <GiLipstick size={22} />
         </div>
-        <div className="font-semibold">Beauty</div>
+        <div>Beauty</div>
       </div>
       <div className="w-18 h-18 flex flex-col justify-center align-middle items-center">
         <div>
           <LuLamp size={22} />
         </div>
-        <div className="font-semibold">Home</div>
+        <div>Home</div>
       </div>
       <div className="w-18 h-18 flex flex-col justify-center align-middle items-center">
         <div>
           <FaDesktop size={22} />
         </div>
-        <div className="font-semibold">Appliances</div>
+        <div>Appliances</div>
       </div>
       <div className="w-18 h-18 flex flex-col justify-center align-middle items-center">
         <div>
           <MdOutlineToys size={22} />
         </div>
-        <div className="font-semibold">Toys, ba..</div>
+        <div>Toys, ba..</div>
       </div>
       <div className="w-18 h-18 flex flex-col justify-center align-middle items-center">
         <div>
           <IoFastFoodOutline size={22} />
         </div>
-        <div className="font-semibold">Food</div>
+        <div>Food</div>
       </div>
       <div className="w-18 h-18 flex flex-col justify-center align-middle items-center">
         <div>
           <GiFullMotorcycleHelmet size={22} />
         </div>
-        <div className="font-semibold">Auto </div>
+        <div>Auto </div>
       </div>
       <div className="w-18 h-18 flex flex-col justify-center align-middle items-center">
         <div>
           <MdOutlineSportsCricket size={22} />
         </div>
-        <div className="font-semibold">Sports</div>
+        <div>Sports</div>
       </div>
       <div className="w-18 h-18 flex flex-col justify-center align-middle items-center">
         <div>
           <LuSofa size={22} />
         </div>
-        <div className="font-semibold">Furniture</div>
+        <div>Furniture</div>
       </div>
       <div className="w-18 h-18 flex flex-col justify-center align-middle items-center">
         <div>
           <FaBook size={22} />
         </div>
-        <div className="font-semibold">Books</div>
+        <div>Books</div>
       </div>
       <div className="w-18 h-18 flex flex-col justify-center align-middle items-center">
         <div>
           <GiScooter size={22} />
         </div>
-        <div className="font-semibold">2 Wheel..</div>
+        <div>2 Wheel..</div>
       </div>
     </div>
   );

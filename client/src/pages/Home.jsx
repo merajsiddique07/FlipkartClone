@@ -1,5 +1,11 @@
 import Category from "../components/Category";
+import Footer from "../components/Footer";
+import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
+import OnList from "../components/OnList";
+import Suggestion from "../components/Suggestion";
+import TagBar from "../components/TagBar";
+import TopDeals from "../components/TopDeals";
 
 const Home = () => {
   return (
@@ -7,6 +13,17 @@ const Home = () => {
       <Navbar />
       <Category />
       <hr className="text-gray-300" />
+      <Hero />
+      <Suggestion />
+      <OnList />
+      <TopDeals />
+      <h1 className="mt-8 text-2xl font-bold">Brands in Spotlight</h1>
+      <OnList />
+      <OnList />
+      <OnList />
+      <TagBar />
+      <OnList />
+      
     </div>
   );
 };
