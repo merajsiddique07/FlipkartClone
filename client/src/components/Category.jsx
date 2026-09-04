@@ -17,85 +17,91 @@ const Category = () => {
     <div className="flex gap-4 pt-2">
       <div className="w-18 h-18 flex flex-col justify-center align-middle items-center">
         <div>
-          <RiShoppingBag3Line size={22} />
+          <RiShoppingBag3Line size={22} className="shadow shadow-yellow-500" />
         </div>
         <div>For You</div>
       </div>
       <div className="w-18 h-18 flex flex-col justify-center align-middle items-center">
         <div>
-          <LuShirt size={22} />
+          <LuShirt size={22} className="shadow shadow-yellow-500" />
         </div>
         <div>Fashion</div>
       </div>
       <div className="w-18 h-18 flex flex-col justify-center align-middle items-center">
         <div>
-          <FaMobileAlt size={22} />
+          <FaMobileAlt size={22} className="shadow shadow-yellow-500" />
         </div>
         <div>Mobiles</div>
       </div>
       <div className="w-18 h-18 flex flex-col justify-center align-middle items-center">
         <div>
-          <FaLaptop size={22} />
+          <FaLaptop size={22} className="shadow shadow-yellow-500" />
         </div>
         <div>Electronics</div>
       </div>
       <div className="w-18 h-18 flex flex-col justify-center align-middle items-center">
         <div>
-          <GiLipstick size={22} />
+          <GiLipstick size={22} className="shadow shadow-yellow-500" />
         </div>
         <div>Beauty</div>
       </div>
       <div className="w-18 h-18 flex flex-col justify-center align-middle items-center">
         <div>
-          <LuLamp size={22} />
+          <LuLamp size={22} className="shadow shadow-yellow-500" />
         </div>
         <div>Home</div>
       </div>
       <div className="w-18 h-18 flex flex-col justify-center align-middle items-center">
         <div>
-          <FaDesktop size={22} />
+          <FaDesktop size={22} className="shadow shadow-yellow-500" />
         </div>
         <div>Appliances</div>
       </div>
       <div className="w-18 h-18 flex flex-col justify-center align-middle items-center">
         <div>
-          <MdOutlineToys size={22} />
+          <MdOutlineToys size={22} className="shadow shadow-yellow-500" />
         </div>
         <div>Toys, ba..</div>
       </div>
       <div className="w-18 h-18 flex flex-col justify-center align-middle items-center">
         <div>
-          <IoFastFoodOutline size={22} />
+          <IoFastFoodOutline size={22} className="shadow shadow-yellow-500" />
         </div>
         <div>Food</div>
       </div>
       <div className="w-18 h-18 flex flex-col justify-center align-middle items-center">
         <div>
-          <GiFullMotorcycleHelmet size={22} />
+          <GiFullMotorcycleHelmet
+            size={22}
+            className="shadow shadow-yellow-500"
+          />
         </div>
         <div>Auto </div>
       </div>
       <div className="w-18 h-18 flex flex-col justify-center align-middle items-center">
         <div>
-          <MdOutlineSportsCricket size={22} />
+          <MdOutlineSportsCricket
+            size={22}
+            className="shadow shadow-yellow-500"
+          />
         </div>
         <div>Sports</div>
       </div>
       <div className="w-18 h-18 flex flex-col justify-center align-middle items-center">
         <div>
-          <LuSofa size={22} />
+          <LuSofa size={22} className="shadow shadow-yellow-500" />
         </div>
         <div>Furniture</div>
       </div>
       <div className="w-18 h-18 flex flex-col justify-center align-middle items-center">
         <div>
-          <FaBook size={22} />
+          <FaBook size={22} className="shadow shadow-yellow-500" />
         </div>
         <div>Books</div>
       </div>
       <div className="w-18 h-18 flex flex-col justify-center align-middle items-center">
         <div>
-          <GiScooter size={22} />
+          <GiScooter size={22} className="shadow shadow-yellow-500" />
         </div>
         <div>2 Wheel..</div>
       </div>

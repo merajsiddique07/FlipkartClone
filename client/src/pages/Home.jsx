@@ -1,11 +1,13 @@
+import BigBlock from "../components/BigBlock";
 import Category from "../components/Category";
-import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import OnList from "../components/OnList";
 import Suggestion from "../components/Suggestion";
 import TagBar from "../components/TagBar";
 import TopDeals from "../components/TopDeals";
+import mobile2 from "../assets/products/mobile2.webp";
+import mobile from "../assets/products/mobile.webp";
 
 const Home = () => {
   return (
@@ -23,7 +25,13 @@ const Home = () => {
       <OnList />
       <TagBar />
       <OnList />
-      
+      <BigBlock image={mobile} />
+      <BigBlock image={mobile2} />
+      <BigBlock image={mobile2} />
+      <BigBlock image={mobile2} />
+      <BigBlock image={mobile2} />
+      <BigBlock image={mobile2} />
+      <BigBlock image={mobile2} />
     </div>
   );
 };

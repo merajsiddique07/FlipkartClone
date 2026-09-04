@@ -1,7 +1,7 @@
 import { FaLongArrowAltRight } from "react-icons/fa";
 import m1 from "../assets/images/m1.webp";
 import { FaStar } from "react-icons/fa";
-import flight from '../assets/images/flight.webp'
+import flight from "../assets/images/flight.webp";
 const Suggestion = () => {
   return (
     <div className="flex flex-col mt-5">
